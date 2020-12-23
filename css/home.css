@@ -1,0 +1,391 @@
+
+body{
+    background-color: #FFFFF7;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ================= */
+
+
+.navbar-heading{
+
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    left: 190px;
+    font-size: 18px;
+    width: 980px;
+    height: 180px;
+
+ 
+}
+
+.logo{
+    width: 180px;
+}
+
+.logo-con{
+ 
+    width: 180px;
+    height: 140px;
+    position: relative;
+    left: 80px;
+    top: 20px;
+}
+
+/* .nav{
+    background-color: blue;
+} */
+
+ul {
+    position: relative;
+    bottom: 85px;
+    margin-left: 250px;
+    display: inline-flex;
+    list-style-type: none;
+}
+
+
+.nav-item{
+    display: table-cell; 
+    position: relative; 
+    padding: 15px 0;
+    
+}
+
+.nav-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    padding: 8px 20px;
+    color: #050505;
+}
+
+.nav-link:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: rgb(139, 123, 123);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.nav-link:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+
+
+  /* Headline */
+  
+.headline-sec{
+
+    position: relative;
+    left: 190px;
+    width: 980px;
+    height: 600px;
+}
+
+
+.img-container{
+    position: relative;
+    
+
+    
+  }
+
+  .head-img{
+    width: 980px;
+    height: 500px;
+  }
+
+
+  
+  /* ===== */
+
+ 
+
+  .main-content{
+      position: relative;
+      left: 20px;
+      bottom: 300px;
+      width: 400px;
+      height: 160px;
+      text-align: center;
+      line-height:0.3;
+   
+  }
+
+  .main-content p {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 60px;
+      font-family: 'Montserrat', sans-serif;
+      color: #ffffff;
+    
+  }
+
+  .main-content h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size:28px;
+    height: 45px;
+
+  }
+
+  .main-btn {
+    position: relative;
+    left: 100px;
+    bottom:340px;
+    z-index: 1;
+    /* ===== */
+    color: #f8f9fa;
+    background-color: transparent;
+    background-image: none;
+    border-color: #f8f9fa;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    width: 240px;
+    height: 40px;
+  }
+  
+
+  
+  .main-btn:hover {
+    color: #212529;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    
+  }
+
+
+  /* Product features ============================ */
+
+  .top-collection{
+ 
+    position: relative;
+    left: 190px;
+    width: 980px;
+    height: 1500px;
+  }
+
+
+  .top-collection h1{
+      /* background-color: rgb(22, 22, 21); */
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 45px;
+      font-family: 'Montserrat', sans-serif;
+      color: #131111;
+  }
+
+
+  /* Product 1  */
+
+  .product1{
+      float:right;
+     
+      text-align: center;
+      margin-top: 154px;
+      margin-right: 20px;
+  }
+
+.pro1, .pro2{        
+   width: 400px;
+    height: 400px;
+  }
+
+  .desc{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 35px;
+   
+  }
+
+  .collection-btn{
+    color: #131516;
+    background-color: transparent;
+    background-image: none;
+    border-color: #0c0d0e;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    width: 240px;
+    height: 40px;
+  }
+
+  .collection-btn:hover {
+    color: #212529;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    
+  }
+
+  /*  Product 2 */
+
+
+  .product2{
+    float:left;
+    /* background-color: rgb(91, 190, 45); */
+    position: relative;
+    left: 50px;
+    text-align: center;
+    margin-top: 184px;
+    margin-right: 20px;
+}
+
+.pro2{
+    position: relative;
+    top: 80px;
+    left: 130px;
+}
+
+.footer{
+   
+    background-color: #e08f62;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 9px;
+    text-align: center;
+    position: relative;
+    font-size: 24px;
+   
+}
+
+.icon{
+    margin-left: 20px;
+}
+
+/* Lines */
+.liner-top{
+    /* background-color: violet; */
+    width: 250px;
+    padding: 8px;
+    margin-left: 540px;
+}
+
+.mid-top{
+    border-top: 10px dotted #5B5346;
+    margin: 20px;
+}
+
+.liner-low{
+ 
+    width: 750px;
+    margin-left: 125px;
+    padding-top: 45px;
+   
+}
+  
+
+/* ================================================================================ */
+
+.table-con{
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    top: 80px;
+    left: 180px;
+    font-size: 18px;
+    width: 980px;
+    height: 985px;
+    
+}
+
+.t-head{
+
+    position: relative;
+    right: 5px;   
+}
+
+.t-head-name{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: #141212;
+    padding: 15px;
+}
+
+
+
+
+/* Alll Image */
+.pro-img{
+    width: 200px;
+    margin: 25px;
+}
+
+/* ======================================================== */
+
+.pic-con{
+    font-family: 'Montserrat', sans-serif;
+ font-weight: 700;
+    position: relative;
+    left: 190px;
+    font-size: 18px;
+    width: 980px;
+    height: 180px;
+  
+ 
+}
+
+.contact-pic{
+    height: 320px;
+    width:389px;
+     position: relative;
+    /* top:150px; 
+    left: -20px; */
+}
+
+.paraa{
+    position: relative;
+    top: 90px;
+    right: 20px;
+    text-align: center;
+    float:right;
+
+    width: 550px;
+    
+}
+
+
+/* ================================== */
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    position: relative;
+    left: 190px;
+    font-size: 18px;
+    width: 980px;
+  }
